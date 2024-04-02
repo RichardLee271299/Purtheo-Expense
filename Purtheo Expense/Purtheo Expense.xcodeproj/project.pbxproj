@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E4A286C2A069A0A0088A4D0 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4A286B2A069A090088A4D0 /* StoryView.swift */; };
+		1E4A286E2A06A0080088A4D0 /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4A286D2A06A0080088A4D0 /* RemoteImageView.swift */; };
+		1E4A28742A06ACC10088A4D0 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1E4A28732A06ACC10088A4D0 /* FirebaseAnalytics */; };
+		1E4A28762A06ACC10088A4D0 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 1E4A28752A06ACC10088A4D0 /* FirebaseDatabase */; };
+		1E4A28782A06ACC10088A4D0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 1E4A28772A06ACC10088A4D0 /* FirebaseStorage */; };
+		1E89767929C303C60097777D /* Purtheo_ExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89767829C303C60097777D /* Purtheo_ExpenseApp.swift */; };
+		1E89767D29C303C70097777D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E89767C29C303C70097777D /* Assets.xcassets */; };
+		1E89768029C303C70097777D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E89767F29C303C70097777D /* Preview Assets.xcassets */; };
+		1E89768729C304160097777D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89768629C304160097777D /* MainView.swift */; };
+		1E89768B29C304B20097777D /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89768A29C304B20097777D /* AppState.swift */; };
+		1E89768E29C312B90097777D /* UltityExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89768D29C312B90097777D /* UltityExtentions.swift */; };
+		1E8AD9BA29C4081C00E404D6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8AD9B929C4081C00E404D6 /* HomeView.swift */; };
+		1E8AD9BD29C445BB00E404D6 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8AD9BC29C445BB00E404D6 /* MainModel.swift */; };
+		1E8AD9BF29C467B500E404D6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8AD9BE29C467B500E404D6 /* HomeViewModel.swift */; };
+		1E8AD9C129C768A000E404D6 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8AD9C029C768A000E404D6 /* AddExpenseView.swift */; };
+		1E8AD9C329C8A72A00E404D6 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8AD9C229C8A72A00E404D6 /* DatePickerView.swift */; };
+		1E8AD9C529C8AD7500E404D6 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8AD9C429C8AD7500E404D6 /* StatisticView.swift */; };
+		1E8AD9CB29CCB68100E404D6 /* DevelopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8AD9CA29CCB68100E404D6 /* DevelopView.swift */; };
+		1E966C3429D49CA400E0E1AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E966C3329D49CA400E0E1AF /* GoogleService-Info.plist */; };
+		1E96D73329D5314E0030FEEC /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E96D73229D5314E0030FEEC /* ExpenseModel.swift */; };
+		1E96D73529D739E30030FEEC /* StatisticViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E96D73429D739E30030FEEC /* StatisticViewModel.swift */; };
+		1E96D73A29D876A50030FEEC /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E96D73929D876A50030FEEC /* Charts.framework */; };
+		1E96D73E29D8794E0030FEEC /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E96D73D29D8794E0030FEEC /* StatisticModel.swift */; };
+		1E96D75B29DDA8590030FEEC /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 1E96D75A29DDA8590030FEEC /* BottomSheet */; };
+		1EA72C3F2A0CF86F009E2049 /* MemoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA72C3E2A0CF86F009E2049 /* MemoryView.swift */; };
+		B79EBC189785E90C864EF442 /* Pods_Purtheo_Expense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19744617EF18EBC1ACDE3C09 /* Pods_Purtheo_Expense.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B1BE2F01C6A1EF942A37189 /* Pods-Purtheo Expense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purtheo Expense.debug.xcconfig"; path = "Target Support Files/Pods-Purtheo Expense/Pods-Purtheo Expense.debug.xcconfig"; sourceTree = "<group>"; };
+		19744617EF18EBC1ACDE3C09 /* Pods_Purtheo_Expense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Purtheo_Expense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E4A28662A056AE30088A4D0 /* Purtheo Expense.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Purtheo Expense.entitlements"; sourceTree = "<group>"; };
+		1E4A28672A056AFD0088A4D0 /* Purtheo-Expense-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Purtheo-Expense-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1E4A286B2A069A090088A4D0 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		1E4A286D2A06A0080088A4D0 /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		1E89767529C303C60097777D /* Purtheo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Purtheo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E89767829C303C60097777D /* Purtheo_ExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purtheo_ExpenseApp.swift; sourceTree = "<group>"; };
+		1E89767C29C303C70097777D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E89767F29C303C70097777D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E89768629C304160097777D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1E89768A29C304B20097777D /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		1E89768D29C312B90097777D /* UltityExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltityExtentions.swift; sourceTree = "<group>"; };
+		1E8AD9B929C4081C00E404D6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1E8AD9BC29C445BB00E404D6 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		1E8AD9BE29C467B500E404D6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1E8AD9C029C768A000E404D6 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		1E8AD9C229C8A72A00E404D6 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		1E8AD9C429C8AD7500E404D6 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		1E8AD9CA29CCB68100E404D6 /* DevelopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopView.swift; sourceTree = "<group>"; };
+		1E966C3329D49CA400E0E1AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E96D73229D5314E0030FEEC /* ExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseModel.swift; sourceTree = "<group>"; };
+		1E96D73429D739E30030FEEC /* StatisticViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewModel.swift; sourceTree = "<group>"; };
+		1E96D73929D876A50030FEEC /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E96D73D29D8794E0030FEEC /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
+		1EA72C3E2A0CF86F009E2049 /* MemoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryView.swift; sourceTree = "<group>"; };
+		8181AEF264FA079A2A45BE82 /* Pods-Purtheo Expense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purtheo Expense.release.xcconfig"; path = "Target Support Files/Pods-Purtheo Expense/Pods-Purtheo Expense.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E89767229C303C60097777D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4A28762A06ACC10088A4D0 /* FirebaseDatabase in Frameworks */,
+				B79EBC189785E90C864EF442 /* Pods_Purtheo_Expense.framework in Frameworks */,
+				1E96D75B29DDA8590030FEEC /* BottomSheet in Frameworks */,
+				1E4A28742A06ACC10088A4D0 /* FirebaseAnalytics in Frameworks */,
+				1E96D73A29D876A50030FEEC /* Charts.framework in Frameworks */,
+				1E4A28782A06ACC10088A4D0 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E89766C29C303C60097777D = {
+			isa = PBXGroup;
+			children = (
+				1E89767729C303C60097777D /* Purtheo Expense */,
+				1E89767629C303C60097777D /* Products */,
+				A834ED4ED4E0D2F39451EB5D /* Pods */,
+				F4A42D0378136E442D6B58AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E89767629C303C60097777D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E89767529C303C60097777D /* Purtheo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E89767729C303C60097777D /* Purtheo Expense */ = {
+			isa = PBXGroup;
+			children = (
+				1E4A28672A056AFD0088A4D0 /* Purtheo-Expense-Info.plist */,
+				1E4A28662A056AE30088A4D0 /* Purtheo Expense.entitlements */,
+				1E966C3329D49CA400E0E1AF /* GoogleService-Info.plist */,
+				1E89767829C303C60097777D /* Purtheo_ExpenseApp.swift */,
+				1E89768829C304260097777D /* VIEW */,
+				1E8AD9BB29C445A000E404D6 /* MODEL */,
+				1E89768929C304930097777D /* VIEW MODEL */,
+				1E89767C29C303C70097777D /* Assets.xcassets */,
+				1E89767E29C303C70097777D /* Preview Content */,
+				1E89768D29C312B90097777D /* UltityExtentions.swift */,
+				1E4A286D2A06A0080088A4D0 /* RemoteImageView.swift */,
+			);
+			path = "Purtheo Expense";
+			sourceTree = "<group>";
+		};
+		1E89767E29C303C70097777D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E89767F29C303C70097777D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E89768829C304260097777D /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				1E89768629C304160097777D /* MainView.swift */,
+				1E8AD9B929C4081C00E404D6 /* HomeView.swift */,
+				1E8AD9C029C768A000E404D6 /* AddExpenseView.swift */,
+				1E8AD9C229C8A72A00E404D6 /* DatePickerView.swift */,
+				1E8AD9C429C8AD7500E404D6 /* StatisticView.swift */,
+				1E8AD9CA29CCB68100E404D6 /* DevelopView.swift */,
+				1E4A286B2A069A090088A4D0 /* StoryView.swift */,
+				1EA72C3E2A0CF86F009E2049 /* MemoryView.swift */,
+			);
+			path = VIEW;
+			sourceTree = "<group>";
+		};
+		1E89768929C304930097777D /* VIEW MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				1E89768A29C304B20097777D /* AppState.swift */,
+				1E8AD9BE29C467B500E404D6 /* HomeViewModel.swift */,
+				1E96D73429D739E30030FEEC /* StatisticViewModel.swift */,
+			);
+			path = "VIEW MODEL";
+			sourceTree = "<group>";
+		};
+		1E8AD9BB29C445A000E404D6 /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				1E8AD9BC29C445BB00E404D6 /* MainModel.swift */,
+				1E96D73229D5314E0030FEEC /* ExpenseModel.swift */,
+				1E96D73D29D8794E0030FEEC /* StatisticModel.swift */,
+			);
+			path = MODEL;
+			sourceTree = "<group>";
+		};
+		A834ED4ED4E0D2F39451EB5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B1BE2F01C6A1EF942A37189 /* Pods-Purtheo Expense.debug.xcconfig */,
+				8181AEF264FA079A2A45BE82 /* Pods-Purtheo Expense.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4A42D0378136E442D6B58AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E96D73929D876A50030FEEC /* Charts.framework */,
+				19744617EF18EBC1ACDE3C09 /* Pods_Purtheo_Expense.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E89767429C303C60097777D /* Purtheo Expense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E89768329C303C70097777D /* Build configuration list for PBXNativeTarget "Purtheo Expense" */;
+			buildPhases = (
+				06612E6BB7FD6917CB3E905A /* [CP] Check Pods Manifest.lock */,
+				1E89767129C303C60097777D /* Sources */,
+				1E89767229C303C60097777D /* Frameworks */,
+				1E89767329C303C60097777D /* Resources */,
+				AAA72F9628D36FF1BE2FF5DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Purtheo Expense";
+			packageProductDependencies = (
+				1E96D75A29DDA8590030FEEC /* BottomSheet */,
+				1E4A28732A06ACC10088A4D0 /* FirebaseAnalytics */,
+				1E4A28752A06ACC10088A4D0 /* FirebaseDatabase */,
+				1E4A28772A06ACC10088A4D0 /* FirebaseStorage */,
+			);
+			productName = "Purtheo Expense";
+			productReference = 1E89767529C303C60097777D /* Purtheo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E89766D29C303C60097777D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					1E89767429C303C60097777D = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 1E89767029C303C60097777D /* Build configuration list for PBXProject "Purtheo Expense" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E89766C29C303C60097777D;
+			packageReferences = (
+				1E96D75929DDA8590030FEEC /* XCRemoteSwiftPackageReference "BottomSheet" */,
+				1E4A28722A06ACC10088A4D0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 1E89767629C303C60097777D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E89767429C303C60097777D /* Purtheo Expense */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E89767329C303C60097777D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E89768029C303C70097777D /* Preview Assets.xcassets in Resources */,
+				1E89767D29C303C70097777D /* Assets.xcassets in Resources */,
+				1E966C3429D49CA400E0E1AF /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06612E6BB7FD6917CB3E905A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Purtheo Expense-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAA72F9628D36FF1BE2FF5DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Purtheo Expense/Pods-Purtheo Expense-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Purtheo Expense/Pods-Purtheo Expense-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Purtheo Expense/Pods-Purtheo Expense-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E89767129C303C60097777D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4A286C2A069A0A0088A4D0 /* StoryView.swift in Sources */,
+				1E89768B29C304B20097777D /* AppState.swift in Sources */,
+				1E8AD9C529C8AD7500E404D6 /* StatisticView.swift in Sources */,
+				1E8AD9C129C768A000E404D6 /* AddExpenseView.swift in Sources */,
+				1E89768E29C312B90097777D /* UltityExtentions.swift in Sources */,
+				1E8AD9C329C8A72A00E404D6 /* DatePickerView.swift in Sources */,
+				1E8AD9CB29CCB68100E404D6 /* DevelopView.swift in Sources */,
+				1E96D73529D739E30030FEEC /* StatisticViewModel.swift in Sources */,
+				1E96D73329D5314E0030FEEC /* ExpenseModel.swift in Sources */,
+				1EA72C3F2A0CF86F009E2049 /* MemoryView.swift in Sources */,
+				1E96D73E29D8794E0030FEEC /* StatisticModel.swift in Sources */,
+				1E4A286E2A06A0080088A4D0 /* RemoteImageView.swift in Sources */,
+				1E8AD9BF29C467B500E404D6 /* HomeViewModel.swift in Sources */,
+				1E8AD9BD29C445BB00E404D6 /* MainModel.swift in Sources */,
+				1E89768729C304160097777D /* MainView.swift in Sources */,
+				1E8AD9BA29C4081C00E404D6 /* HomeView.swift in Sources */,
+				1E89767929C303C60097777D /* Purtheo_ExpenseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E89768129C303C70097777D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E89768229C303C70097777D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E89768429C303C70097777D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B1BE2F01C6A1EF942A37189 /* Pods-Purtheo Expense.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Purtheo Expense/Purtheo Expense.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Purtheo Expense/Preview Content\"";
+				DEVELOPMENT_TEAM = X5ZM9A8U8D;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Purtheo-Expense-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "PhuongDong.Purtheo-Expense";
+				PRODUCT_NAME = Purtheo;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				a = "";
+			};
+			name = Debug;
+		};
+		1E89768529C303C70097777D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8181AEF264FA079A2A45BE82 /* Pods-Purtheo Expense.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Purtheo Expense/Purtheo Expense.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Purtheo Expense/Preview Content\"";
+				DEVELOPMENT_TEAM = X5ZM9A8U8D;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Purtheo-Expense-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "PhuongDong.Purtheo-Expense";
+				PRODUCT_NAME = Purtheo;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				a = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E89767029C303C60097777D /* Build configuration list for PBXProject "Purtheo Expense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E89768129C303C70097777D /* Debug */,
+				1E89768229C303C70097777D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E89768329C303C70097777D /* Build configuration list for PBXNativeTarget "Purtheo Expense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E89768429C303C70097777D /* Debug */,
+				1E89768529C303C70097777D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E4A28722A06ACC10088A4D0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		1E96D75929DDA8590030FEEC /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamfootdev/BottomSheet.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E4A28732A06ACC10088A4D0 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E4A28722A06ACC10088A4D0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		1E4A28752A06ACC10088A4D0 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E4A28722A06ACC10088A4D0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		1E4A28772A06ACC10088A4D0 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E4A28722A06ACC10088A4D0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		1E96D75A29DDA8590030FEEC /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E96D75929DDA8590030FEEC /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1E89766D29C303C60097777D /* Project object */;
+}
